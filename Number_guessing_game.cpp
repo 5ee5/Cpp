@@ -44,6 +44,7 @@ int main() {
             if (input == "exit") {
                 cout << "Thanks for playing! Goodbye, " << (username ? username : "Linux user") << "!\n";
                 cout << "Total rounds played: " << totalRounds - 1 << "\n";  // Subtract 1 to not count the unfinished game
+				cout << "Correct number was: " << target << "\n";
                 return 0;  // Exit the program immediately
             }
 
