@@ -4,22 +4,22 @@ using namespace std;
 
 int main()
 {
-    string vards;
-    char simbols;
-    int skaits = 0;
+    string word;
+    char symbol;
+    int count = 0;
     
     cout << "Ievadi vardu:";
-    cin >> vards;
+    cin >> word;
     
     cout << "ievadi simbolu: ";
-    cin >> simbols;
+    cin >> symbol;
     
-    for (char c : vards) {
-        if (c == simbols) {
-            skaits++;
+    for (char c : word) {
+        if (c == symbol) {
+            count++;
         }
     }
-    cout << "\nAtrada " << skaits << " simbolus\n";
+    cout << "\nAtrada " << count << " simbolus\n";
 
     cout << "Press Enter to exit...";
     cin.ignore();
