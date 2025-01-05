@@ -8,10 +8,10 @@ int main()
     char symbol;
     int count = 0;
     
-    cout << "Ievadi vardu:";
+    cout << "Enter a word:";
     cin >> word;
     
-    cout << "ievadi simbolu: ";
+    cout << "Enter a symbol: ";
     cin >> symbol;
     
     for (char c : word) {
@@ -19,7 +19,7 @@ int main()
             count++;
         }
     }
-    cout << "\nAtrada " << count << " simbolus\n";
+    cout << "\nFound " << count << " symbols\n";
 
     cout << "Press Enter to exit...";
     cin.ignore();
