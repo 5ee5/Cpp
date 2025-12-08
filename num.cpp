@@ -4,7 +4,6 @@ using namespace std;
 int main() {
 int year_of_birth;
 string name;
-bool flag = false;
 int current_year = 2025;
 
     cout << "Enter your name: ";
