@@ -1,5 +1,6 @@
 *
 !*.cpp
 !*.h
-!.vscode/*
+!.vscode
+!.vscode/**
 !.gitignore
